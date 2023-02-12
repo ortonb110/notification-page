@@ -13,9 +13,9 @@ export default function Header(props) {
             Notifications{" "}
           </h1>
           <span
-            className={`py-[1] px-[11px] bg-blue text-white rounded-[6px] font-bold flex items-center transition ease-in-out duration-300 ${props.markedRead ? "!invisible" : ""}`}
+            className={`py-[1] px-[11px] bg-blue text-white rounded-[6px] font-bold flex items-center transition ease-in-out duration-300 `}
           >
-            3
+            {props.markedRead? 0 : 3}
           </span>
         </div>
         <button onClick={markAllAsRead}>Mark all as read</button>

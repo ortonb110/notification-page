@@ -4,13 +4,17 @@ export default function Notification(props) {
   //bg-lightGrayishBlue_2
   return (
     <Fragment>
-      <figure className={`${props.markedRead? "!bg-inherit" : ""} ${props.data.read? "!bg-inherit" : ""} tracking-normal bg-lightGrayishBlue_2 py-[1.8rem] px-[1.9rem] rounded-[8px]  mb-[0.8rem] items-center text-[1.4rem] md:text-[1.6rem] text-darkGrayishBlue`}>
+      <figure
+        className={`${props.markedRead ? "!bg-inherit" : ""} ${
+          props.data.read ? "!bg-inherit" : ""
+        } tracking-normal transition-all ease-in-out duration-300 bg-lightGrayishBlue_2 py-[1.8rem] px-[1.9rem] rounded-[8px]  mb-[0.8rem] items-center text-[1.4rem] md:text-[1.6rem] text-darkGrayishBlue`}
+      >
         <figcaption className="flex">
-        <img
-          src={props.data.profilePic}
-          alt="User"
-          className="md:w-[4.5rem] w-[3.9rem] object-contain md:h-[4.5rem] h-[3.9rem] mr-[1.9rem]"
-        />
+          <img
+            src={props.data.profilePic}
+            alt="User"
+            className="md:w-[4.5rem] w-[3.9rem] object-contain md:h-[4.5rem] h-[3.9rem] mr-[1.9rem]"
+          />
           <p>
             {" "}
             <span className="font-bold text-veryDarkGrayishBlue cursor-pointer hover:text-blue ">
@@ -30,10 +34,12 @@ export default function Notification(props) {
             <span className="block">{props.data.time}</span>
           </p>
         </figcaption>
-        <blockquote className={`${props.data.privateMe? "hidden" : ""} ml-[6.5rem] mt-[1.3rem] py-[1.6rem] px-[1.6rem] border-[1px] rounded-[5px] border-lightGrayishBlue_1`}>
-          <p className="">
-            {props.data.privateMessage}
-          </p>
+        <blockquote
+          className={`${
+            props.data.privateMe ? "hidden" : ""
+          } ml-[6.5rem]  leading-8  mt-[1rem] py-[1.6rem] px-[2rem] border-[1px] rounded-[5px] border-lightGrayishBlue_1 cursor-pointer hover:bg-lightGrayishBlue_2`}
+        >
+          <p className="">{props.data.privateMessage}</p>
         </blockquote>
       </figure>
     </Fragment>

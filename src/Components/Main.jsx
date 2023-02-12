@@ -90,7 +90,7 @@ export default function Main() {
   //const [] = useState(false);
   return (
     <Fragment>
-      <div className="bg-white rounded-[15px] md:py-[3.3rem] md:px-[3.3rem] py-[24px] px-[16px] w-screen lg:w-[73rem]">
+      <div className="bg-white overflow-auto rounded-[15px] md:py-[3.3rem] md:px-[3.3rem] py-[24px] px-[16px] w-screen lg:w-[73rem]">
         <Header markedRead={markedRead} setMarkedRead= {setMarkedRead} />
         <Notification data={data[0]} markedRead={markedRead}/>
         <Notification data={data[1]} markedRead={markedRead}/>

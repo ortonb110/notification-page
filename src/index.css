@@ -15,5 +15,13 @@
     place-content: center;
     font-size: 1.6rem;
     background-color: hsl(210, 60%, 98%);
+    scrollbar-width: none;
+  }
+
+
+  @media screen and (max-width: 640px) { 
+    body {
+      display: block;
+    }
   }
 }
