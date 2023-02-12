@@ -4,7 +4,7 @@ export default function Notification(props) {
   //bg-lightGrayishBlue_2
   return (
     <Fragment>
-      <figure className={`${props.markedRead? "!bg-inherit" : ""} ${props.data.read? "!bg-inherit" : ""} bg-lightGrayishBlue_2 py-[1.8rem] px-[1.9rem] rounded-[8px] cursor-pointer mb-[0.8rem] items-center text-[1.4rem] md:text-[1.6rem] text-darkGrayishBlue`}>
+      <figure className={`${props.markedRead? "!bg-inherit" : ""} ${props.data.read? "!bg-inherit" : ""} tracking-normal bg-lightGrayishBlue_2 py-[1.8rem] px-[1.9rem] rounded-[8px]  mb-[0.8rem] items-center text-[1.4rem] md:text-[1.6rem] text-darkGrayishBlue`}>
         <figcaption className="flex">
         <img
           src={props.data.profilePic}
@@ -13,12 +13,12 @@ export default function Notification(props) {
         />
           <p>
             {" "}
-            <span className="font-bold text-veryDarkGrayishBlue  ">
+            <span className="font-bold text-veryDarkGrayishBlue cursor-pointer hover:text-blue ">
               {props.data.name}
             </span>{" "}
             <span>
               {props.data.message}{" "}
-              <a href="#" className="text-blue font-bold ">
+              <a href="#" className=" font-bold hover:text-blue">
                 {props.data.post}
               </a>
             </span>
