@@ -18,6 +18,8 @@ let data = [
     post: "My first tournament today!",
     time: "1m ago",
     readStatus: "!visible",
+    read: false,
+    privateMe: true,
   },
   {
     profilePic: profileAngela,
@@ -26,6 +28,8 @@ let data = [
     post: "",
     time: "5m ago",
     readStatus: "!visible",
+    read: false,
+    privateMe: true,
   },
   {
     profilePic: profileJacob,
@@ -34,6 +38,8 @@ let data = [
     message: "has joined your group",
     time: "1 day ago",
     readStatus: "!visible",
+    read: false,
+    privateMe: true,
   },
   {
     profilePic: profileRizky,
@@ -43,6 +49,8 @@ let data = [
       "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
     time: "5 days ago",
     readStatus: "invisible",
+    read: true,
+    privateMe: false,
   },
   {
     profilePic: profileKimberly,
@@ -51,6 +59,8 @@ let data = [
     picture: chess,
     time: "1 week ago",
     readStatus: "invisible",
+    read: true,
+    privateMe: true,
   },
   {
     profilePic: profileNathan,
@@ -59,6 +69,8 @@ let data = [
     post: "5 end-games strategies to increase your win rate",
     time: "2 weeks ago",
     readStatus: "invisible",
+    read: true,
+    privateMe: true,
   },
   {
     profilePic: profileAnna,
@@ -67,21 +79,27 @@ let data = [
     post: "Chess Club",
     time: "2 weeks ago",
     readStatus: "invisible",
+    read: true,
+    privateMe: true,
   },
 ];
 
 export default function Main() {
+  const [markedRead, setMarkedRead] = useState(false);
+  
+  //const [] = useState(false);
   return (
     <Fragment>
       <div className="bg-white rounded-[15px] md:py-[3.3rem] md:px-[3.3rem] py-[24px] px-[16px] w-screen lg:w-[73rem]">
-        <Header />
-        <Notification data={data[0]} />
-        <Notification data={data[1]} />
-        <Notification data={data[2]} />
-        <Notification data={data[3]} />
-        <Notification data={data[4]} />
-        <Notification data={data[5]} />
-        <Notification data={data[6]} />
+        <Header markedRead={markedRead} setMarkedRead= {setMarkedRead} />
+        <Notification data={data[0]} markedRead={markedRead}/>
+        <Notification data={data[1]} markedRead={markedRead}/>
+        <Notification data={data[2]} markedRead={markedRead}/>
+        <Notification data={data[3]} markedRead={markedRead}/>
+        <Notification data={data[4]} markedRead={markedRead}/>
+        <Notification data={data[5]} markedRead={markedRead}/>
+        <Notification data={data[6]} markedRead={markedRead}/>
+        
       </div>
     </Fragment>
   );
