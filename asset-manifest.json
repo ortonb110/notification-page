@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/notification-page/static/css/main.1e5e17e0.css",
-    "main.js": "/notification-page/static/js/main.56cc927d.js",
+    "main.css": "/notification-page/static/css/main.b1b0d764.css",
+    "main.js": "/notification-page/static/js/main.1086877a.js",
     "static/js/787.0b05b966.chunk.js": "/notification-page/static/js/787.0b05b966.chunk.js",
     "static/media/avatar-rizky-hasanuddin.webp": "/notification-page/static/media/avatar-rizky-hasanuddin.2c9e9a5d4982e8f1b614.webp",
     "static/media/avatar-jacob-thompson.webp": "/notification-page/static/media/avatar-jacob-thompson.ef1880754355ebe956bb.webp",
@@ -12,12 +12,12 @@
     "static/media/avatar-kimberly-smith.webp": "/notification-page/static/media/avatar-kimberly-smith.00520dc2b2f8e585aac5.webp",
     "static/media/avatar-angela-gray.webp": "/notification-page/static/media/avatar-angela-gray.be3397e8fa98e1cac926.webp",
     "index.html": "/notification-page/index.html",
-    "main.1e5e17e0.css.map": "/notification-page/static/css/main.1e5e17e0.css.map",
-    "main.56cc927d.js.map": "/notification-page/static/js/main.56cc927d.js.map",
+    "main.b1b0d764.css.map": "/notification-page/static/css/main.b1b0d764.css.map",
+    "main.1086877a.js.map": "/notification-page/static/js/main.1086877a.js.map",
     "787.0b05b966.chunk.js.map": "/notification-page/static/js/787.0b05b966.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e5e17e0.css",
-    "static/js/main.56cc927d.js"
+    "static/css/main.b1b0d764.css",
+    "static/js/main.1086877a.js"
   ]
 }
