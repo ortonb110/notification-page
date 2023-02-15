@@ -40,7 +40,7 @@ This is a solution to the [Notification Page on Frontend Mentor](https://www.fro
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [Notification Page(React + Tailwind) | Frontend Mentor](https://www.frontendmentor.io/solutions/notification-page-ZTXCuiv5fr)
+- Solution URL: [Notification Pag e(React + Tailwind) | Frontend Mentor](https://www.frontendmentor.io/solutions/notification-page-ZTXCuiv5fr)
 - Live Site URL: [https://ortonb110.github.io/notification-page/](https://ortonb110.github.io/intro-section-with-dropdown-nav/)
 
 <br>

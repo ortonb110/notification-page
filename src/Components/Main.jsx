@@ -86,20 +86,23 @@ let data = [
 
 export default function Main() {
   const [markedRead, setMarkedRead] = useState(false);
-  
+
   //const [] = useState(false);
   return (
     <Fragment>
       <div className="bg-white overflow-auto rounded-[15px] md:py-[3.3rem] md:px-[3.3rem] py-[24px] px-[16px] w-screen lg:w-[73rem]">
-        <Header markedRead={markedRead} setMarkedRead= {setMarkedRead} />
-        <Notification data={data[0]} markedRead={markedRead}/>
-        <Notification data={data[1]} markedRead={markedRead}/>
+        <Header markedRead={markedRead} setMarkedRead={setMarkedRead} />
+        {/* <Notification data={data[0]} markedRead={markedRead}/> */}
+        {/* <Notification data={data[1]} markedRead={markedRead}/>
         <Notification data={data[2]} markedRead={markedRead}/>
         <Notification data={data[3]} markedRead={markedRead}/>
         <Notification data={data[4]} markedRead={markedRead}/>
         <Notification data={data[5]} markedRead={markedRead}/>
-        <Notification data={data[6]} markedRead={markedRead}/>
-        
+        <Notification data={data[6]} markedRead={markedRead}/> */}
+
+        {data.map((items, key) => (
+          <Notification data={data[key]} markedRead={markedRead} key={key} />
+        ))}
       </div>
     </Fragment>
   );
