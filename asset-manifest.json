@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/notification-page/static/css/main.47663935.css",
-    "main.js": "/notification-page/static/js/main.b9e193e8.js",
+    "main.js": "/notification-page/static/js/main.437fdce3.js",
     "static/js/787.0b05b966.chunk.js": "/notification-page/static/js/787.0b05b966.chunk.js",
     "static/media/avatar-rizky-hasanuddin.webp": "/notification-page/static/media/avatar-rizky-hasanuddin.2c9e9a5d4982e8f1b614.webp",
     "static/media/avatar-jacob-thompson.webp": "/notification-page/static/media/avatar-jacob-thompson.ef1880754355ebe956bb.webp",
@@ -13,11 +13,11 @@
     "static/media/avatar-angela-gray.webp": "/notification-page/static/media/avatar-angela-gray.be3397e8fa98e1cac926.webp",
     "index.html": "/notification-page/index.html",
     "main.47663935.css.map": "/notification-page/static/css/main.47663935.css.map",
-    "main.b9e193e8.js.map": "/notification-page/static/js/main.b9e193e8.js.map",
+    "main.437fdce3.js.map": "/notification-page/static/js/main.437fdce3.js.map",
     "787.0b05b966.chunk.js.map": "/notification-page/static/js/787.0b05b966.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47663935.css",
-    "static/js/main.b9e193e8.js"
+    "static/js/main.437fdce3.js"
   ]
 }
